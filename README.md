@@ -5,63 +5,70 @@ Esta é uma API desenvolvida utilizando ASP.NET Core Web API com uma arquitetura
 
 # Funcionalidades
 
-## CRUD de Usuários: Permite criar, ler, atualizar e excluir informações de usuários.
+CRUD de Usuários: Permite criar, ler, atualizar e excluir informações de usuários.
 
-## CRUD de Cadastros: Permite criar, ler, atualizar e excluir cadastros de serviços.
+CRUD de Cadastros: Permite criar, ler, atualizar e excluir cadastros de serviços.
 
-## CRUD de Problemas: Permite registrar, listar, atualizar e remover problemas associados aos cadastros.
+CRUD de Problemas: Permite registrar, listar, atualizar e remover problemas associados aos cadastros.
 
-## Documentação via Swagger: Documentação automática dos endpoints para facilitar o consumo da API.
+Documentação via Swagger: Documentação automática dos endpoints para facilitar o consumo da API.
 
 # Tecnologias Utilizadas
 
-## ASP.NET Core Web API
-## Oracle Database
-## Entity Framework Core
-## Swagger/OpenAPI
-## Arquitetura Monolítica
-## Padrão de Criação (Singleton)
+ASP.NET Core Web API
+
+Oracle Database
+
+Entity Framework Core
+
+Swagger/OpenAPI
+
+Arquitetura Monolítica
+
+Padrão de Criação (Singleton)
 
 # Requisitos
 
-## .NET 6.0 SDK
-## Oracle Database
-## Ferramenta de gerenciamento de pacotes NuGet para instalar dependências como Microsoft.EntityFrameworkCore, Microsoft.AspNetCore.Swagger, etc.
+.NET 6.0 SDK
 
-# Endpoints
+Oracle Database
+
+Ferramenta de gerenciamento de pacotes NuGet para instalar dependências como Microsoft.EntityFrameworkCore, Microsoft.AspNetCore.Swagger, etc.
+
+#Endpoints
 
 # Usuários
 
-## GET /api/Usuario - Retorna todos os usuários.
+GET /api/Usuario - Retorna todos os usuários.
 
-## GET /api/Usuario/{id} - Retorna um usuário pelo ID.
+GET /api/Usuario/{id} - Retorna um usuário pelo ID.
 
-## POST /api/Usuario - Cria um novo usuário.
+POST /api/Usuario - Cria um novo usuário.
 
-## PUT /api/Usuario/{id} - Atualiza um usuário existente.
+PUT /api/Usuario/{id} - Atualiza um usuário existente.
 
-## DELETE /api/Usuario/{id} - Exclui um usuário.
+DELETE /api/Usuario/{id} - Exclui um usuário.
 
 # Cadastros
 
-## GET /api/Cadastro - Retorna todos os cadastros.
+GET /api/Cadastro - Retorna todos os cadastros.
 
-## GET /api/Cadastro/{id} - Retorna um cadastro pelo ID.
+GET /api/Cadastro/{id} - Retorna um cadastro pelo ID.
 
-## POST /api/Cadastro - Cria um novo cadastro.
+POST /api/Cadastro - Cria um novo cadastro.
 
-## PUT /api/Cadastro/{id} - Atualiza um cadastro existente.
+PUT /api/Cadastro/{id} - Atualiza um cadastro existente.
 
-## DELETE /api/Cadastro/{id} - Exclui um cadastro.
+DELETE /api/Cadastro/{id} - Exclui um cadastro.
 
 # Problemas
 
-## GET /api/Problemas - Retorna todos os problemas.
+GET /api/Problemas - Retorna todos os problemas.
 
-## GET /api/Problemas/{id} - Retorna um problema pelo ID.
+GET /api/Problemas/{id} - Retorna um problema pelo ID.
 
-## POST /api/Problemas - Registra um novo problema.
+POST /api/Problemas - Registra um novo problema.
 
-## PUT /api/Problemas/{id} - Atualiza um problema existente.
+PUT /api/Problemas/{id} - Atualiza um problema existente.
 
-## DELETE /api/Problemas/{id} - Exclui um problema.
+DELETE /api/Problemas/{id} - Exclui um problema.
